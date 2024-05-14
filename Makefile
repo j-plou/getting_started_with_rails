@@ -1,6 +1,6 @@
 .PHONY: run, test
 
-run:
+serve:
 	bundle exec rails server
 
 test:

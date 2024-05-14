@@ -1,24 +1,48 @@
-# README
+# Getting started with rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository contains the proposed exercise to start learning Rails at https://guides.rubyonrails.org/getting_started.htm
 
-Things you may want to cover:
+## System dependencies
 
-* Ruby version
+- Ruby 3.0.6
+- Bundler 2.2.33
 
-* System dependencies
+## How to operate
 
-* Configuration
+- Install project dependencies:
 
-* Database creation
+```shell
+bundle install
+```
 
-* Database initialization
+- Run project:
 
-* How to run the test suite
+```shell
+bin/rails server
+````
 
-* Services (job queues, cache servers, search engines, etc.)
+or
 
-* Deployment instructions
+```shell
+bundle exec rails server
+````
 
-* ...
+or even
+
+```shell
+make serve
+````
+
+Application will be accesible at [http://localhost:3000/](http://localhost:3000/)
+
+- Run tests:
+
+```shell
+make tests
+```
+
+or
+
+```shell
+make tests
+```
